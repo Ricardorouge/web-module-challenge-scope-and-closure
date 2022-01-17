@@ -61,6 +61,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+closure is when an inner function goes into the scope of an upper function to use a variable 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,9 +83,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+closure is used when console.logging because it takes a variable that is defined in an upper function 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the newRoll would change because its being called everytime the name would be the same
 c. What is the lexical scope of `newRoll`? 
-
+you can only use it under the function inside of the function personalDice
 
 ### Task 3 - Stretch Goals
 
